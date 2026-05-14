@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "schema_version": "1.1",
+    "updated_at_jst": "2026-05-14T21:15:00+09:00",
+    "updated_by": "automation",
+    "phase": "phase1",
+    "phase_start_jst": "2026-05-05",
+    "phase_deadline_jst": "2026-08-31",
+    "notes": "Internal status snapshot for routine alert evaluation."
+  },
+  "kpi_current": {
+    "as_of_jst": "2026-05-14",
+    "followers": 20,
+    "subscribers": 1
+  },
+  "routes_this_week": {
+    "week_start_jst": "2026-05-11",
+    "recommends_set": 6,
+    "recommends_target": 6,
+    "notes_count": 2,
+    "notes_target_min": 5,
+    "restack_count": 1,
+    "restack_target_min": 3,
+    "overseas_reply_count": 1,
+    "overseas_reply_target_min": 1,
+    "onboarding_status": "observing"
+  },
+  "daily_active_routes_last_14days": [
+    {"date_jst": "2026-05-07", "active_count": 0, "note": "off-funnel"},
+    {"date_jst": "2026-05-08", "active_count": 0, "note": "off-funnel"},
+    {"date_jst": "2026-05-09", "active_count": 1, "note": "publish"},
+    {"date_jst": "2026-05-10", "active_count": 0, "note": "rest"},
+    {"date_jst": "2026-05-11", "active_count": 1, "note": "publish"},
+    {"date_jst": "2026-05-12", "active_count": 0, "note": "off-funnel"},
+    {"date_jst": "2026-05-13", "active_count": 3, "note": "route1 setup + route2 publish + route3"},
+    {"date_jst": "2026-05-14", "active_count": 2, "note": "route2 publish + route4"}
+  ],
+  "weekly_subscriber_snapshots": [
+    {"week_end_jst": "2026-05-10", "followers": 20, "subscribers": 1},
+    {"week_end_jst": "2026-05-17", "followers": 20, "subscribers": 1}
+  ],
+  "baseline_expectations": {
+    "day30_subscribers_range": [50, 100],
+    "day60_subscribers_range": [150, 300],
+    "day90_subscribers_range": [300, 500],
+    "day120_subscribers_range": [500, 800]
+  },
+  "alert_thresholds": {
+    "no_active_routes_consecutive_days": 3,
+    "no_subscriber_growth_consecutive_weeks": 2,
+    "baseline_deviation_threshold_pct": 50,
+    "baseline_deviation_required_days": 30,
+    "stale_status_days": 2
+  },
+  "alert_state_computed": {
+    "no_active_routes_consecutive_days_actual": 0,
+    "no_subscriber_growth_consecutive_weeks_actual": 1,
+    "baseline_expected_subscribers_today_min": 0,
+    "baseline_expected_subscribers_today_max": 0,
+    "baseline_deviation_pct_today": 0,
+    "baseline_deviation_50_consecutive_days_actual": 0,
+    "notes": "Phase 1 day 10 (2026-05-14). day30 baseline check starts in ~17 days."
+  },
+  "alert_active": {
+    "alert_1_no_active_routes_3days": false,
+    "alert_2_no_subscriber_growth_2weeks": false,
+    "alert_3_baseline_deviation_30days": false,
+    "alert_4_stale_status": false
+  }
+}

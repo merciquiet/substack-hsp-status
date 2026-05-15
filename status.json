@@ -1,7 +1,7 @@
 {
   "_meta": {
     "schema_version": "1.1",
-    "updated_at_jst": "2026-05-15T21:34:00+09:00",
+    "updated_at_jst": "2026-05-15T22:05:00+09:00",
     "updated_by": "automation",
     "phase": "phase1",
     "phase_start_jst": "2026-05-05",
@@ -17,7 +17,7 @@
     "week_start_jst": "2026-05-11",
     "recommends_set": 6,
     "recommends_target": 6,
-    "notes_count": 2,
+    "notes_count": 3,
     "notes_target_min": 5,
     "restack_count": 1,
     "restack_target_min": 3,
@@ -34,7 +34,7 @@
     {"date_jst": "2026-05-12", "active_count": 0, "note": "off-funnel"},
     {"date_jst": "2026-05-13", "active_count": 3, "note": "route1 setup + route2 publish + route3"},
     {"date_jst": "2026-05-14", "active_count": 2, "note": "route2 publish + route4"},
-    {"date_jst": "2026-05-15", "active_count": 1, "note": "route4"}
+    {"date_jst": "2026-05-15", "active_count": 2, "note": "route4 + route2 publish"}
   ],
   "weekly_subscriber_snapshots": [
     {"week_end_jst": "2026-05-10", "followers": 20, "subscribers": 1},

@@ -1,7 +1,7 @@
 {
   "_meta": {
     "schema_version": "1.1",
-    "updated_at_jst": "2026-05-14T21:15:00+09:00",
+    "updated_at_jst": "2026-05-15T21:34:00+09:00",
     "updated_by": "automation",
     "phase": "phase1",
     "phase_start_jst": "2026-05-05",
@@ -9,7 +9,7 @@
     "notes": "Internal status snapshot for routine alert evaluation."
   },
   "kpi_current": {
-    "as_of_jst": "2026-05-14",
+    "as_of_jst": "2026-05-15",
     "followers": 20,
     "subscribers": 1
   },
@@ -21,7 +21,7 @@
     "notes_target_min": 5,
     "restack_count": 1,
     "restack_target_min": 3,
-    "overseas_reply_count": 1,
+    "overseas_reply_count": 2,
     "overseas_reply_target_min": 1,
     "onboarding_status": "observing"
   },
@@ -33,7 +33,8 @@
     {"date_jst": "2026-05-11", "active_count": 1, "note": "publish"},
     {"date_jst": "2026-05-12", "active_count": 0, "note": "off-funnel"},
     {"date_jst": "2026-05-13", "active_count": 3, "note": "route1 setup + route2 publish + route3"},
-    {"date_jst": "2026-05-14", "active_count": 2, "note": "route2 publish + route4"}
+    {"date_jst": "2026-05-14", "active_count": 2, "note": "route2 publish + route4"},
+    {"date_jst": "2026-05-15", "active_count": 1, "note": "route4"}
   ],
   "weekly_subscriber_snapshots": [
     {"week_end_jst": "2026-05-10", "followers": 20, "subscribers": 1},
@@ -59,7 +60,7 @@
     "baseline_expected_subscribers_today_max": 0,
     "baseline_deviation_pct_today": 0,
     "baseline_deviation_50_consecutive_days_actual": 0,
-    "notes": "Phase 1 day 10 (2026-05-14). day30 baseline check starts in ~17 days."
+    "notes": "Phase 1 day 11 (2026-05-15). day30 baseline check starts in ~16 days."
   },
   "alert_active": {
     "alert_1_no_active_routes_3days": false,

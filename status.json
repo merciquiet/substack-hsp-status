@@ -1,7 +1,7 @@
 {
   "_meta": {
     "schema_version": "1.1",
-    "updated_at_jst": "2026-05-16T11:51:00+09:00",
+    "updated_at_jst": "2026-05-16T12:21:22+09:00",
     "updated_by": "automation",
     "phase": "phase1",
     "phase_start_jst": "2026-05-05",
@@ -10,8 +10,9 @@
   },
   "kpi_current": {
     "as_of_jst": "2026-05-16",
-    "followers": 22,
-    "subscribers": 1
+    "followers": 31,
+    "subscribers": 0,
+    "subscribers_note": "Real reader count (excludes owner and internal test accounts)."
   },
   "routes_this_week": {
     "week_start_jst": "2026-05-11",
@@ -26,26 +27,86 @@
     "onboarding_status": "observing"
   },
   "daily_active_routes_last_14days": [
-    {"date_jst": "2026-05-07", "active_count": 0, "note": "off-funnel"},
-    {"date_jst": "2026-05-08", "active_count": 0, "note": "off-funnel"},
-    {"date_jst": "2026-05-09", "active_count": 1, "note": "publish"},
-    {"date_jst": "2026-05-10", "active_count": 0, "note": "rest"},
-    {"date_jst": "2026-05-11", "active_count": 1, "note": "publish"},
-    {"date_jst": "2026-05-12", "active_count": 0, "note": "off-funnel"},
-    {"date_jst": "2026-05-13", "active_count": 3, "note": "route1 setup + route2 publish + route3"},
-    {"date_jst": "2026-05-14", "active_count": 2, "note": "route2 publish + route4"},
-    {"date_jst": "2026-05-15", "active_count": 2, "note": "route4 + route2 publish"},
-    {"date_jst": "2026-05-16", "active_count": 1, "note": "publish"}
+    {
+      "date_jst": "2026-05-07",
+      "active_count": 0,
+      "note": "off-funnel"
+    },
+    {
+      "date_jst": "2026-05-08",
+      "active_count": 0,
+      "note": "off-funnel"
+    },
+    {
+      "date_jst": "2026-05-09",
+      "active_count": 1,
+      "note": "publish"
+    },
+    {
+      "date_jst": "2026-05-10",
+      "active_count": 0,
+      "note": "rest"
+    },
+    {
+      "date_jst": "2026-05-11",
+      "active_count": 1,
+      "note": "publish"
+    },
+    {
+      "date_jst": "2026-05-12",
+      "active_count": 0,
+      "note": "off-funnel"
+    },
+    {
+      "date_jst": "2026-05-13",
+      "active_count": 3,
+      "note": "route1 setup + route2 publish + route3"
+    },
+    {
+      "date_jst": "2026-05-14",
+      "active_count": 2,
+      "note": "route2 publish + route4"
+    },
+    {
+      "date_jst": "2026-05-15",
+      "active_count": 2,
+      "note": "route4 + route2 publish"
+    },
+    {
+      "date_jst": "2026-05-16",
+      "active_count": 1,
+      "note": "publish"
+    }
   ],
   "weekly_subscriber_snapshots": [
-    {"week_end_jst": "2026-05-10", "followers": 20, "subscribers": 1},
-    {"week_end_jst": "2026-05-17", "followers": 20, "subscribers": 1}
+    {
+      "week_end_jst": "2026-05-10",
+      "followers": 20,
+      "subscribers": 1
+    },
+    {
+      "week_end_jst": "2026-05-17",
+      "followers": 20,
+      "subscribers": 1
+    }
   ],
   "baseline_expectations": {
-    "day30_subscribers_range": [50, 100],
-    "day60_subscribers_range": [150, 300],
-    "day90_subscribers_range": [300, 500],
-    "day120_subscribers_range": [500, 800]
+    "day30_subscribers_range": [
+      50,
+      100
+    ],
+    "day60_subscribers_range": [
+      150,
+      300
+    ],
+    "day90_subscribers_range": [
+      300,
+      500
+    ],
+    "day120_subscribers_range": [
+      500,
+      800
+    ]
   },
   "alert_thresholds": {
     "no_active_routes_consecutive_days": 3,
